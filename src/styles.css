@@ -1,8 +1,63 @@
 body {
-  font-family: 'Tangerine', serif;
-  background-color: lightblue;
-  outline: 0.5px solid hsla(210, 60%, 60%, 1)
-  }
-h1 {color: gray;}
-h2 {color: lightgray;}
-p {color: black;}
+  font-family: "Tangerine", serif;
+  background-color: rgb(255, 255, 255);
+  /* outline: 0.5px solid hsla(210, 60%, 60%, 1); */
+  
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 53, 102);
+  margin: 20px;
+}
+
+h2 {
+  color: rgb(84, 83, 83);
+}
+
+p {
+  color: black;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 40px 200px 1fr 20px;
+}
+
+article {
+  /* outline: 0.5px solid rgb(29, 103, 177); */
+  margin: 10px;
+  padding: 20px 0 20px 40px;
+  border-style: dotted;
+  
+}
+
+.overview {
+  margin-left: 20px;
+  margin-top: 10px;
+  /* outline: 0.5px solid rgb(29, 103, 177); */
+  text-align: center;
+  padding: 10px 0;
+  border-style: solid;
+
+}
+
+.inner-article {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 8rem;
+  height: 8rem;
+  padding: 1rem;
+}
+
+h1,
+p {
+  margin-bottom: 2.4rem;
+}
+
+a {
+  box-shadow: 0 0.25 black;
+}
