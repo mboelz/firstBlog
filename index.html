@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>My blog</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" hred="https://fonts.googleapis.com/css?family=Tangerine">
+	<link rel="stylesheet" href="src/reset.css">
+	<link rel="stylesheet" href="src/-debug.css">
+	<link rel="stylesheet" href="src/styles.css">
+	<link rel="stylesheet" href="src/blog.css">
+	<link rel="stylesheet" href="src/blog-images.css">
+	<style>
+
+article {
+	display: grid;
+	grid-template-columns: 1fr 10px [start] 300px [end] 10px 1fr;
+						    1 2    3    4    5   6  
+	height: 500px;
+	padding: 10px 0;
+}
+
+article * {grid-column: start/ end;}
+
+h1, p {margin-bottom: 2.4rem;}
+
+a {box-shadow: 0 0.25 black;}
+
+	</style>
+
+</head>
+
+<body>
+	<div id="app"></div>
+	<script src="src/index.js">
+	</script>
+	<h1>My Blog</h1>
+
+
+	<article id="Blogeintrag_1">
+		outline: 0.5px solid rgb(29, 103, 177)
+		<h1 class="debug-center"><a href="#Blogeintrag_1">Blogeintrag 1</a></h1>
+		<time datetime="09-22-2022"> Sep. 22, 2022</time>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</p>
+	</article>
+
+	<article id="Blogeintrag_1">
+		<h1 class="debug-center">Blogeintrag 1</h1>
+		<time datetime="09-22-2022"> Sep. 22, 2022</time>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</p>
+		<img src="/src/1.png">
+	</article>
+
+	<article id="Blogeintrag_1">
+		<h1 class="debug-center">Blogeintrag 1</h1>
+		<time datetime="09-22-2022"> Sep. 22, 2022</time>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</p>
+	</article>
+
+	<article id="Blogeintrag_1">
+		<h1 class="debug-center">Blogeintrag 1</h1>
+		<time datetime="09-22-2022"> Sep. 22, 2022</time>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</p>
+	</article>
+
+
+	<article>
+		<img src="/src/1.png">
+	</article>
+
+</body>
+
+</html>

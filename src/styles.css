@@ -1,0 +1,8 @@
+body {
+  font-family: 'Tangerine', serif;
+  background-color: lightblue;
+  outline: 0.5px solid hsla(210, 60%, 60%, 1)
+  }
+h1 {color: gray;}
+h2 {color: lightgray;}
+p {color: black;}
